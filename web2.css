@@ -9,6 +9,18 @@ body {
     letter-spacing: 1px;
 }
 
+a {
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #fff;
+}
+
+footer a:visited {
+    color: #ddd;
+}
+
 ul {
     padding: 0px;
     margin: 0px;
@@ -16,7 +28,7 @@ ul {
 }
 
 #headerContainer {
-    background: #000;
+    background: #222;
     color: #fff;
 }
 
@@ -25,7 +37,7 @@ header ul {
     margin-top: 20px;
 }
 
-header li {
+header a {
     float: left;
     margin-right: 20px;
 }
@@ -105,7 +117,7 @@ footer ul {
     float: left;
 }
 
-footer li {
+footer a {
     float: left;
     margin: 20px 20px 20px 0px;
 }
@@ -113,4 +125,17 @@ footer li {
 #copyright {
     float: right;
     margin: 20px 0;
+}
+
+#breadcrumb {
+    border-bottom: 2px solid #aaa;
+}
+
+#article {
+    width: 45%;
+    float: right;
+}
+
+#articleTitle {
+    width: 30%;
 }
