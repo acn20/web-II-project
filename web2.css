@@ -159,6 +159,12 @@ footer ul a, #followUs {
     margin: 20px 20px 20px 0px;
 }
 
+#followUs {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ddd;
+}
+
 #copyright {
     float: right;
     margin: 20px 0;
