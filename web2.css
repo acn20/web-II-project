@@ -13,6 +13,18 @@ a {
     text-decoration: none;
 }
 
+header label {
+    display: none;
+}
+
+header label img {
+    width: 30px;
+}
+
+#toggleMenu {
+    display: none;
+}
+
 header a:visited {
     color: #fff;
 }
@@ -32,12 +44,17 @@ ul {
     color: #fff;
 }
 
+header {
+    padding: 15px 0px;
+}
+
 header ul {
+    width: 70%;
     float: left;
     margin-top: 20px;
 }
 
-header a {
+header ul a {
     float: left;
     margin-right: 20px;
 }
@@ -49,13 +66,23 @@ header::after, main::after, footer::after {
 }
 
 header, main, footer {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
 }
 
-#logo {
-    width: 300px;
+#logoLink {
+    display: block;
+    width: 20%;
     float: left;
+}
+
+#logo {
+    width: 100%;
+}
+
+#logoLink:hover {
+    cursor: pointer;
 }
 
 #upperSectionContainer {
@@ -68,7 +95,8 @@ header, main, footer {
 }
 
 #upperSection img {
-    height: 600px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 main {
@@ -94,7 +122,7 @@ main {
 }
 
 .article img {
-    height: 100px;
+    width: 100%;
 }
 
 .article-title {
@@ -115,9 +143,10 @@ main {
 
 footer ul {
     float: left;
+    width: 40%;
 }
 
-footer a {
+footer ul a, #followUs {
     float: left;
     margin: 20px 20px 20px 0px;
 }
@@ -125,6 +154,7 @@ footer a {
 #copyright {
     float: right;
     margin: 20px 0;
+    width: 30%;
 }
 
 #breadcrumb {
@@ -153,4 +183,45 @@ footer a {
 
 .i {
     font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    header label {
+        display: block;
+        float: left;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header #toggleMenu:checked + ul {
+        display: block;
+    }
+
+    header ul a {
+        float: none;
+    }
+
+    #logoLink {
+        float: right;
+    }
+
+    .article {
+        float: none;
+        width: 75%;
+    }
+
+    #article, #articleTitle {
+        float: none;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .article {
+        float: none;
+        width: 100%;
+    }
 }

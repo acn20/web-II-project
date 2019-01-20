@@ -7,7 +7,13 @@
 <body>
     <div id="headerContainer">
         <header>
-            <img src="images/logo.png" id="logo" />
+            <a href="index.html" id="logoLink"><img src="images/logo.png" id="logo" /></a>
+
+            <label for="toggleMenu">
+                <img src="images/menu-icon.png" />
+            </label>
+
+            <input type="checkbox" id="toggleMenu" />
 
             <ul>
                 <a href="">
@@ -40,7 +46,7 @@
 
     <div id="mainContainer">
         <main>
-            <div id="breadcrumb">SPACEX NEWS → ARTICLE</div>
+            <div id="breadcrumb"><a href="index.html">SPACEX NEWS</a> → ARTICLE</div>
 
             <div id="articleTitle">
                 <p>JUNE 10, 2015</p>
@@ -86,7 +92,7 @@
                     rapid
                     rocket reusability.</p>
 
-                    <img src="images/img3.jpg"/>
+                <img src="images/img3.jpg" />
 
                 <h4>Ocean Landings</h4>
 
@@ -116,9 +122,7 @@
     <div id="footerContainer">
         <footer>
             <ul>
-                <a href="">
-                    <li>FOLLOW SPACEX</li>
-                </a>
+                <li id="followUs">FOLLOW SPACEX</li>
                 <a href="">
                     <li>TWITTER</li>
                 </a>
