@@ -231,6 +231,10 @@ footer ul a:visited {
         width: 100%;
     }
 
+    footer ul, #copyright {
+        float: none;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
