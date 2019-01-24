@@ -225,7 +225,7 @@ footer ul a:visited {
 
     .article {
         float: none;
-        width: 75%;
+        width: 100%;
         margin-left: 0px;
     }
 
@@ -259,5 +259,6 @@ footer ul a:visited {
     .article {
         float: none;
         width: 100%;
+        margin-left: 0px;
     }
 }
