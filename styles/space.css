@@ -215,25 +215,43 @@ footer ul a:visited {
 
     header ul a {
         float: none;
+        margin-top: 20px;
     }
 
     #logoLink {
         float: right;
+        width: 40%;
     }
 
     .article {
         float: none;
         width: 75%;
+        margin-left: 0px;
     }
 
     #article, #articleTitle {
         float: none;
         width: 100%;
+        padding: 0px 30px;
     }
 
     footer ul, #copyright {
         float: none;
+        width: 100%;
+        clear: both;
+        margin: auto;
+        text-align: center
     }
+
+    footer ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap
+    }
+    
+    footer ul a, #followUs  {
+        margin: 20px                
+    }    
 
 }
 
