@@ -203,10 +203,12 @@ footer ul a:visited {
     header label {
         display: block;
         float: left;
+        margin-left: 10px;
     }
 
     header ul {
         display: none;
+        margin-left: 10px;
     }
 
     header #toggleMenu:checked + ul {
