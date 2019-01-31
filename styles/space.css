@@ -206,7 +206,7 @@ footer ul a:visited {
 .any-class {
     position: relative;
     margin: auto;
-    max-width: 900px !important;
+    max-width: 800px !important;
     overflow: hidden !important;
     clear: both;
     width: 100% !important;
