@@ -203,15 +203,13 @@ footer ul a:visited {
     background: black;
 }
 
-.gallery #logoLink {
-    display: block;
-}
-
 .any-class {
     position: relative;
     margin: auto;
-    width: 900px !important;
+    max-width: 900px !important;
     overflow: hidden !important;
+    clear: both;
+    width: 100% !important;
 }
 
 .prev {
