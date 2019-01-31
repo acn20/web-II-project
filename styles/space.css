@@ -199,6 +199,10 @@ footer ul a:visited {
     font-style: italic;
 }
 
+.gallery {
+    background: black;
+}
+
 @media screen and (max-width: 768px) {
     header label {
         display: block;
