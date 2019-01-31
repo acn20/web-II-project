@@ -203,6 +203,12 @@ footer ul a:visited {
     background: black;
 }
 
+.any-class {
+    margin: auto;
+    width: 500px;
+    overflow: hidden;
+}
+
 @media screen and (max-width: 768px) {
     header label {
         display: block;
